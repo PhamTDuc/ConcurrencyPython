@@ -5,6 +5,6 @@
 * **asyncio:** The tasks decides when to give up control                                  (Processor: 1)
 * **Multiprocessing:** The processes all run at the same time on different processors     (Processor: Many)
 
-	CPU Bound => Multi Processing  
-	I/O Bound, Fast I/O, Limited number of Connections => Multi Threading  
-	I/O Bound, Slow I/O, Many connections => Asyncio  
+	**CPU Bound** => Multi Processing  
+	**I/O Bound, Fast I/O, Limited number of Connections** => Multi Threading  
+	**I/O Bound, Slow I/O, Many connections** => Asyncio  
