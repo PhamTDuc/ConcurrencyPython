@@ -1,3 +1,4 @@
+# PAY ATTENTION: Queue.get() only remove and return the last element from Queue
 import multiprocessing as mp
 import time
 
