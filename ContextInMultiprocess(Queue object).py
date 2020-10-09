@@ -1,4 +1,7 @@
-# PAY ATTENTION: Queue.get() only remove and return the last element from Queue
+# PAY ATTENTION: 
+# Queue.get() only remove and return the last element from Queue
+# Should use Queue.put() only once in a process, otherwises it will cause dead lock
+
 import multiprocessing as mp
 import time
 
